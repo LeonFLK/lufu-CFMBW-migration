@@ -1,0 +1,25 @@
+{
+    "name": "mbw-lufus-db-migration",
+    "version": "0.0.1",
+    "description": "migrates lufu data to the specific MBW DB",
+    "main": "index.ts",
+    "author": "leondev",
+    "license": "MIT",
+    "scripts": {
+        "format": "prettier --end-of-line lf --write"
+    },
+    "dependencies": {
+        "@types/glob": "^7.2.0",
+        "@types/node": "^16.11.6",
+        "exceljs": "^4.3.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.2.0",
+        "@typescript-eslint/parser": "^5.2.0",
+        "eslint": "^8.1.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "^2.4.1",
+        "typescript": "^4.4.4"
+    }
+}
